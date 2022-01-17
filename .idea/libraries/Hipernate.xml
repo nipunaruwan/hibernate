@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Hipernate">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/lib/Hipernate" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

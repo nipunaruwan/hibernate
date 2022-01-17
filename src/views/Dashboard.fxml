@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="DashboadA" prefHeight="538.0" prefWidth="863.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Dashboardcontroller">
+   <children>
+      <ImageView fitHeight="212.0" fitWidth="210.0" layoutX="39.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/icons8-registration-80.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="186.0" fitWidth="198.0" layoutX="327.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/icons8-course-50.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="186.0" fitWidth="244.0" layoutX="616.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/icons8-registration-64.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="289.0" layoutY="23.0" prefHeight="36.0" prefWidth="368.0" text="Sepsewana  intitute">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button layoutX="23.0" layoutY="140.0" mnemonicParsing="false" onAction="#btnStudent" opacity="0.0" prefHeight="232.0" prefWidth="247.0" text="Button" />
+      <Button layoutX="308.0" layoutY="141.0" mnemonicParsing="false" onAction="#btnCourse" opacity="0.0" prefHeight="232.0" prefWidth="247.0" text="Button" />
+      <Button layoutX="586.0" layoutY="141.0" mnemonicParsing="false" onAction="#btnregistation" opacity="0.0" prefHeight="232.0" prefWidth="247.0" text="Button" />
+   </children>
+</AnchorPane>

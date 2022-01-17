@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="481.0" prefWidth="780.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddCoursecontroler">
+   <children>
+      <TableView layoutX="33.0" layoutY="101.0" prefHeight="319.0" prefWidth="715.0">
+        <columns>
+          <TableColumn prefWidth="106.0" text="programID" />
+          <TableColumn prefWidth="184.0" text="programName name" />
+            <TableColumn prefWidth="196.0" text="duration" />
+            <TableColumn prefWidth="215.0" text="fee" />
+        </columns>
+      </TableView>
+      <TextField layoutX="54.0" layoutY="31.0" promptText="programID" />
+      <TextField layoutX="244.0" layoutY="31.0" promptText="programName name" />
+      <TextField layoutX="613.0" layoutY="31.0" promptText="fee" />
+      <TextField layoutX="438.0" layoutY="31.0" promptText="duration" />
+      <Button layoutX="674.0" layoutY="433.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="84.0" text="Delete" />
+      <Button layoutX="562.0" layoutY="433.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="91.0" text="Update" />
+      <Button layoutX="454.0" layoutY="433.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="84.0" text="Save" />
+   </children>
+</AnchorPane>

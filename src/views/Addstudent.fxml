@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="StudentA" prefHeight="580.0" prefWidth="918.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Addstudentcontroller">
+   <children>
+      <TableView layoutX="17.0" layoutY="150.0" prefHeight="351.0" prefWidth="883.0">
+        <columns>
+          <TableColumn prefWidth="119.0" text="regNo" />
+          <TableColumn prefWidth="125.0" text="student name" />
+            <TableColumn prefWidth="118.0" text="age" />
+            <TableColumn prefWidth="153.0" text="contact" />
+            <TableColumn minWidth="0.0" prefWidth="0.0" text="address" />
+            <TableColumn prefWidth="121.0" text="Address" />
+            <TableColumn prefWidth="109.0" text="Email" />
+            <TableColumn prefWidth="135.0" text="gender" />
+        </columns>
+      </TableView>
+      <TextField layoutX="37.0" layoutY="38.0" promptText="regNo" />
+      <TextField layoutX="242.0" layoutY="38.0" promptText="student name" />
+      <TextField layoutX="447.0" layoutY="38.0" prefHeight="25.0" prefWidth="157.0" promptText="age" />
+      <TextField layoutX="37.0" layoutY="109.0" promptText="Address" />
+      <TextField layoutX="639.0" layoutY="38.0" promptText="contact" />
+      <Button layoutX="28.0" layoutY="525.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="68.0" text="Save" />
+      <Button layoutX="112.0" layoutY="525.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="60.0" text="Update" />
+      <Button layoutX="186.0" layoutY="525.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="68.0" text="Delete" />
+      <TextField layoutX="242.0" layoutY="109.0" promptText="Email" />
+      <TextField layoutX="447.0" layoutY="109.0" promptText="gender" />
+   </children>
+</AnchorPane>
