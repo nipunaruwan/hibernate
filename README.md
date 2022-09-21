@@ -1,4 +1,4 @@
-# hipernate
+# hibernate
 <h1>Technologies-java,java fx and hipernate<h1>
   <h1>Architecture-layerd architecture<h1>
   
